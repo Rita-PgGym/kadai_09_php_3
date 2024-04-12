@@ -1,0 +1,116 @@
+body{
+    background-color: #dbedf0;
+    margin:0;
+    padding:0;
+    text-align:left;
+}
+
+img{
+    width:80px;
+    margin: 10px 20px 0 20px;
+}
+
+h1{
+  padding:0 50px 0 50px;
+  font-size: 30px;
+  color: #666666;
+}
+h2{
+  padding: 15px 0 0 20px;
+  color: #666666;
+  font-size: 22px;
+  border-top: 1px solid #c0c0c0;
+}
+
+.container{
+  width: 100%;
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+}
+
+.info_row{
+  display:flex;
+  align-items: center;
+  margin:5px;
+  color: #666666;
+}
+
+/*  */
+.info_label{
+  width:15%
+}
+
+.info_input{
+  width:85%
+}
+
+.text_space{
+  width: 400px;
+  height:30px;
+}
+.select_area{
+  width: 408px;
+  height:37px;
+}
+form{
+  padding: 0 30px 20px 30px;
+  color: #666666;
+  font-size: 20px;
+}
+
+button.regist{
+    align-items: center;
+    justify-content: center;
+    width:100px;
+    height: 40px;
+    margin: 15px;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #666666;
+    text-align: center;
+    overflow-wrap: anywhere;
+    background-color: #fdec88;
+    border-radius: 14px; /* (buttonの高さ / 2) の値 */
+}
+button.update{
+  align-items: center;
+  justify-content: center;
+  width:60px;
+  height: 40px;
+  margin: 15px;
+  font-family: sans-serif;
+  font-size: 18px;
+  color: #666666;
+  text-align: center;
+  overflow-wrap: anywhere;
+  background-color: #fdec88;
+  border-radius: 14px; /* (buttonの高さ / 2) の値 */
+}
+button:hover{
+    color: #666666;
+    background: #ffbf1f;
+}
+
+table{
+  border: 1px solid #333333;
+  border-collapse: collapse;
+  margin: 0 0 0 30px ;
+  color: #666666;
+  font-size: 20px;
+}
+
+th{
+  border: 1px solid #333333;
+  padding:10px 30px;
+  text-align: center;
+  color: #666666;
+  font-size: 20px;
+}
+
+td{
+border: 1px solid #333333;
+padding:10px 30px;
+color: #666666;
+font-size: 20px;
+}
